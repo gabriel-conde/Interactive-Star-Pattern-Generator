@@ -1,0 +1,44 @@
+body {
+    background-color: #051014;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #CDDDDD;
+}
+
+
+p,a {
+    font-size: 18px;
+    line-height: 1;
+    color: #CDDDDD;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ACBDBA;
+}
+
+a:hover {
+    color: #495D63;
+}
+
+button {
+    padding: 10px;
+    border-radius: 2.5px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+    background-color: #2A9D8F;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #23B4A8;
+    transition-delay: 0.1s;
+}
